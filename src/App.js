@@ -1,13 +1,16 @@
 import './App.css';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/NavBar'
+import Router from './routes';
 
 function App() {
   return (
-    <div className="App">
+/*     <div className="App">
+      
       <NavBar/>
       <ItemListContainer greeting={"Hello coders!"}/>
-    </div>
+    </div> */
+    <Router/>
   );
 }
 
