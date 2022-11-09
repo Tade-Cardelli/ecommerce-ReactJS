@@ -6,4 +6,6 @@ const products = [
     {id: 5, name: "CatSelection", description:"Es un alimento seco y balanceado sabor pescado y pollo para gatos ", stock: 20, species: "gato"},
     {id: 6, name: "Whiskas", description:"La carne es un alimento seco 100% completo y balanceado", stock: 20 , species: "gato"},
     {id: 7, name: "CatChow", description:"Alimento seco y humedo que se adapta a las necesidades de tu gato", stock: 20, species: "gato"}
-]
+];
+
+export default products;
